@@ -58,7 +58,7 @@ Cree la máquina virtual con el comando [az vm create](https://docs.microsoft.co
 
 Al crear una máquina virtual, están disponibles varias opciones, como la imagen de sistema operativo, tamaño de disco y credenciales administrativas. En este ejemplo, se crea una máquina virtual llamada *myVM* que se ejecuta en Ubuntu. 
 
-```azurecli-interactive 
+.```azurecli-interactive 
 az vm create --resource-group myResourceGroupVM --name myVM --image UbuntuLTS --generate-ssh-keys
 ```
 
